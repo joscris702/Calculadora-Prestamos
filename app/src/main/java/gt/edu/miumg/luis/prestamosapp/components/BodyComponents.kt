@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.AlertDialog
@@ -48,8 +49,8 @@ fun MainTextField(value: String, onValueChange: (String) -> Unit, label: String)
 @Composable
 fun MainButton(
     text: String,
+    color: Color = MaterialTheme.colorScheme.primary,
     onClick: () -> Unit,
-    color: Color = MaterialTheme.colorScheme.primary
 ){
     OutlinedButton(
         onClick = onClick,
@@ -58,7 +59,7 @@ fun MainButton(
             containerColor = Color.Transparent
         ),
         modifier = Modifier
-            .fillMaxSize()
+            .fillMaxWidth()
             .padding(horizontal = 30.dp)
     ) {
         Text(text = text)
@@ -78,7 +79,7 @@ fun Alert(title: String,
         text = { Text(text = message)},
         confirmButton = {
             Button(
-                onClick = {onConfirmClick}
+                onClick = {onConfirmClick()}
             ) {
                 Text(text = confirmText)
             }

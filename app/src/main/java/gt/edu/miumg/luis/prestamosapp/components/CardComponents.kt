@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-
+//
 @Composable
 fun InfoCard(
     title: String,
@@ -41,7 +41,7 @@ fun InfoCard(
 fun ShowInfoCards(
     titleInteres: String,
     montoInteres: Double,
-    titleMonto:String,
+    titleMonto: String,
     monto: Double
 ){
     Row {
