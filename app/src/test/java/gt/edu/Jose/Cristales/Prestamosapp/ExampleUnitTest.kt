@@ -1,4 +1,4 @@
-package gt.edu.miumg.luis.prestamosapp
+package gt.edu.Jose.Cristales.Prestamosapp
 
 import org.junit.Test
 

@@ -1,6 +1,5 @@
-package gt.edu.miumg.luis.prestamosapp.ui.theme
+package gt.edu.Jose.Cristales.Prestamosapp.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

@@ -1,4 +1,4 @@
-package gt.edu.miumg.luis.prestamosapp.views
+package gt.edu.Jose.Cristales.Prestamosapp.views
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
@@ -19,11 +19,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
-import gt.edu.miumg.luis.prestamosapp.components.Alert
-import gt.edu.miumg.luis.prestamosapp.components.MainButton
-import gt.edu.miumg.luis.prestamosapp.components.MainTextField
-import gt.edu.miumg.luis.prestamosapp.components.ShowInfoCards
-import gt.edu.miumg.luis.prestamosapp.components.SpaceH
+import gt.edu.Jose.Cristales.Prestamosapp.components.Alert
+import gt.edu.Jose.Cristales.Prestamosapp.components.MainButton
+import gt.edu.Jose.Cristales.Prestamosapp.components.MainTextField
+import gt.edu.Jose.Cristales.Prestamosapp.components.ShowInfoCards
+import gt.edu.Jose.Cristales.Prestamosapp.components.SpaceH
 import java.math.BigDecimal
 
 @OptIn(ExperimentalMaterial3Api::class)

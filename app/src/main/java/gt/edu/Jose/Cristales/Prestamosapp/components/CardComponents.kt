@@ -1,4 +1,4 @@
-package gt.edu.miumg.luis.prestamosapp.components
+package gt.edu.Jose.Cristales.Prestamosapp.components
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column

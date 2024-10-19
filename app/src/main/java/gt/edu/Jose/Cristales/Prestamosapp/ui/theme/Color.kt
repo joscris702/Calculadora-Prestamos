@@ -1,4 +1,4 @@
-package gt.edu.miumg.luis.prestamosapp.ui.theme
+package gt.edu.Jose.Cristales.Prestamosapp.ui.theme
 
 import androidx.compose.ui.graphics.Color
 //

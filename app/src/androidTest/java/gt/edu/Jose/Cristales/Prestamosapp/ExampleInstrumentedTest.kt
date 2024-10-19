@@ -1,4 +1,4 @@
-package gt.edu.miumg.luis.prestamosapp
+package gt.edu.Jose.jose.Prestamosapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
